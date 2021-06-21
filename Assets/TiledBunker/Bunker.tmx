@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1920" tileheight="1080" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="Bunker" tilewidth="1920" tileheight="1080" tilecount="1" columns="1">
+  <image source="../Assets/Bunker.png" width="1920" height="1080"/>
+  <tile id="0">
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="42" y="4">
+     <polygon points="0,0 2,30 42,30 42,12 1042,14 1040,88 1104,90 1102,10 1878,12 1876,-4"/>
+    </object>
+    <object id="3" x="1896" y="16">
+     <polygon points="0,0 0,222 -80,226 -80,304 -2,306 -4,1064 26,1064 22,0"/>
+    </object>
+    <object id="4" x="1892" y="1052">
+     <polygon points="0,0 -648,0 -650,-48 -862,-50 -866,-2 -1862,-4 -1890,-6 -1890,28 2,26"/>
+    </object>
+    <object id="5" x="6" y="504">
+     <polygon points="0,0 24,0 26,544 -2,544"/>
+    </object>
+    <object id="6" x="10" y="502">
+     <polygon points="0,0 68,2 70,-22 224,-20 224,52 20,52"/>
+    </object>
+    <object id="7" x="292" y="492">
+     <polygon points="0,0 208,2 208,64 -2,66"/>
+    </object>
+    <object id="8" x="592" y="486">
+     <polygon points="0,0 210,-2 210,72 -2,70"/>
+    </object>
+    <object id="9" x="680" y="720">
+     <polygon points="0,0 210,0 214,72 -2,72"/>
+    </object>
+    <object id="10" x="672" y="850">
+     <polygon points="0,0 -214,-2 -214,72 2,74"/>
+    </object>
+    <object id="11" x="744" y="932">
+     <polygon points="0,0 212,-2 214,70 -2,70"/>
+    </object>
+    <object id="12" x="860" y="672">
+     <polygon points="0,0 202,-4 200,-70 0,-70"/>
+    </object>
+    <object id="13" x="1148" y="764">
+     <polygon points="0,0 286,4 284,54 -2,50"/>
+    </object>
+    <object id="14" x="1258" y="428">
+     <polygon points="0,0 212,0 214,72 0,70"/>
+    </object>
+    <object id="15" x="1630" y="488">
+     <polygon points="0,0 194,2 196,64 0,64"/>
+    </object>
+    <object id="16" x="6" y="120">
+     <polygon points="0,0 78,2 80,106 694,106 698,244 -2,250"/>
+    </object>
+    <object id="17" x="172" y="148">
+     <polygon points="0,0 164,-4 162,40 -2,40"/>
+    </object>
+    <object id="18" x="410" y="104">
+     <polygon points="0,0 200,-2 200,38 4,36"/>
+    </object>
+    <object id="19" x="702" y="228">
+     <polygon points="0,0 40,-2 40,-22 258,-16 258,-112 302,-112 302,-16 518,-18 518,-110 566,-112 568,-4 566,106 4,108"/>
+    </object>
+    <object id="20" x="1270" y="228">
+     <polygon points="0,0 400,4 402,102 10,106"/>
+    </object>
+    <object id="21" x="990" y="336">
+     <polygon points="0,0 -2,262 58,264 54,-8"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="1" name="Calque de Tuiles 1" width="1" height="1">
+  <data encoding="csv">
+1
+</data>
+ </layer>
+</map>
