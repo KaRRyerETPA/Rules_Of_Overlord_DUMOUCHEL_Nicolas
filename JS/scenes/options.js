@@ -15,7 +15,7 @@ export default class Options extends Phaser.Scene {
 
         this.add.image(0, 0, 'options').setOrigin(0).setDepth(0);
 
-        let retourButton = this.add.image(50 , 500, 'retourbutton').setDepth(-1);
+        let retourButton = this.add.image(67 , 931, 'retourbutton').setDepth(-1);
 
         retourButton.setInteractive();
 
