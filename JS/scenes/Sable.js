@@ -56,9 +56,9 @@ export default class Sable extends Phaser.Scene {
     this.respawn = false;
     this.nextscene = false;
 
-    this.add.image(500,300,"sable_background").setScrollFactor(0).setDepth(1)
-    this.add.image(500,300,"sun").setScrollFactor(0.15).setDepth(1)
-    this.add.image(500,300,"sky").setScrollFactor(0.15).setDepth(1)
+    this.add.image(960,540,"sable_background").setScrollFactor(0).setDepth(-1)
+    this.add.image(960,540,"sun").setScrollFactor(0).setDepth(-2)
+    this.add.image(960,540,"sky").setScrollFactor(0).setDepth(-2)
     
     const Map = this.make.tilemap({ key: "Map" });
     const Platform = Map.addTilesetImage("Tileset", "Tiles");

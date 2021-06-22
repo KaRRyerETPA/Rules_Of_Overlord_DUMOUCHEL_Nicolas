@@ -11,13 +11,13 @@ const config = {
   height: 1080,
   parent: "game-container",
   pixelArt: true,
-  backgroundColor: "#1d212d",
+  backgroundColor: "#D93C1A",
   scene: [Menu, Options, Sable, Herbe, Bunker],
   physics: {
     default: "arcade",
     arcade: {
       gravity: { y: 1000 },
-      debug: false
+      debug: true
     }
   }
 };
